@@ -1,0 +1,114 @@
+/* basic styles */
+.dboxlite_slider div,.dboxlite_slider p,.dboxlite_slider li,.dboxlite_slider span,.dboxlite_slider img,.dboxlite_slider h2,.dboxlite_slider ul{list-style:none;vertical-align:baseline;margin: 0;padding:0;}
+/* Slider Container */
+.dboxlite_slider{margin: 0 0 0 0;line-height:18px;position: relative;z-index: 10;width:100%;outline:none;}
+.dboxlite_slider a{border:none !important;text-decoration:none !important;display:block;}
+.dboxlite_slider a:hover{text-decoration:underline !important;}
+/* Slide Title */
+.dboxlite_slider .dboxlite_text h2{clear:none;display:block;padding:0px;border:none;text-shadow:none;word-wrap:break-word;font-size: 13px;text-transform: uppercase;padding:5px;font-family:"Trebuchet MS",Arial,Helvetica,san-serif;margin:0 15px;opacity:1;font-weight: bold;}
+.dboxlite_slider .dboxlite_text h2 a{color:#222;font-weight:bold;}
+/* Slide Content */
+.dboxlite_slider .dboxlite_text div.dboxlite-content{display:block;margin:0 15px;padding:0 5px;}
+.dboxlite_slider .dboxlite_text {padding: 7px;bottom: 0;left: 0;right: 0;z-index: 100;position: absolute;background: #000000;background: rgba(0,0,0, 0.4);border:0;color: #333;background-color: #ffffff;opacity: 0.8;}
+.dboxlite_slider .dboxlite-content-span{font-family:Arial,Helvetica,san-serif;font-size:12px;}
+.dboxlite_slider .dboxlite_text {-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";filter: alpha(opacity=80);opacity: 0.8;}
+.dboxlite_slider span.more{display:inline-block;padding:5px 0 2px 20px;background:url(images/more.png) no-repeat center left;margin-right:3em;}
+.dboxlite_slider span.more a{text-decoration:underline;}
+.dboxlite_slider span.more a:hover{text-decoration:none;}
+.dboxlite_slider .dboxlite-content ol li{display:list-item;list-style:inherit;}
+.dboxlite_slider .dboxlite-content ul li{display:list-item;list-style:initial;margin-left: 2em;}
+/* Content Hide */ 
+.dboxlite_slider .texthide{z-index:200;color:#ffffff;position:absolute;right:0;top:0;cursor: pointer;background: #666666 url(images/close.png) no-repeat center center;height:18px;width:18px;text-align:center;font-family:"Trebuchet MS",Arial,Helvetica,san-serif;font-weight:bold;font-size:16px;line-height: 30px;}
+/* Content Show */
+.dboxlite_slider .textshow{color:#ffffff;z-index:200;position:absolute;right:0;background: #666666 url(images/info.png) no-repeat center center;
+height:18px;width:18px;text-align:center;cursor: pointer;bottom:0;font-family:"Trebuchet MS",Arial,Helvetica,san-serif;font-weight:bold;
+font-size:16px;line-height: 30px;}
+/* Clear left-right */
+.dboxlite_slider  .sldr_clearlt{display:block;visibility:hidden;clear:left;height:0;content:".";}
+.dboxlite_slider  .sldr_clearrt{display:block;visibility:hidden;clear:right;height:0;content:".";}
+/* dboxlite ul li */
+.dboxlite_slider ul.dboxlite_slider_handle {position: relative;overflow: hidden;width: 100%;list-style-type: none;padding: 0 !important;margin:0 !important;}
+.dboxlite_slider li {margin: 0 !important;padding: 0;display: none;position:relative;}
+.dboxlite_slider li > a {outline: none;}
+.dboxlite_slider li > a img {border: none;}
+/* dboxlite Image */
+.dboxlite_slider img {max-width: 100%;display: block;width:100%;max-height:100%;}
+/* dboxlite Perspective */
+.dboxlite_slider .dboxlite_perspective {position: relative;}
+.dboxlite_slider .dboxlite_perspective > div {position: absolute;-webkit-transform-style: preserve-3d;-moz-transform-style: preserve-3d;-o-transform-style: preserve-3d;-ms-transform-style: preserve-3d;transform-style: preserve-3d;-webkit-backface-visibility : hidden;-moz-backface-visibility : hidden;-o-backface-visibility : hidden;-ms-backface-visibility : hidden;backface-visibility : hidden;}
+/* dboxlite Side */
+.dboxlite_slider .dboxlite_side {margin: 0;display: block;position: absolute;-webkit-backface-visibility : hidden;-moz-backface-visibility : hidden;-o-backface-visibility : hidden;-ms-backface-visibility : hidden;backface-visibility : hidden;-webkit-transform-style: preserve-3d;-moz-transform-style: preserve-3d;-o-transform-style: preserve-3d;-ms-transform-style: preserve-3d;transform-style: preserve-3d;}
+.dboxlite_slider li.dboxlite_slideri{width:100%;}
+/* dboxlite Shadow */
+.dboxlite_slider .dboxlite_shadow {width: 100%;height: 168px;position: relative;margin-top: -110px;background: transparent url(images/shadow.png) no-repeat bottom center;background-size: 100% 100%;z-index: -1;display: none;max-width:100%;}
+/* Navigation Arrows */
+.dboxlite_slider .dboxlite_nav_arrows {display: none;}
+.dboxlite_slider .dboxlite_next{width: 42px;height: 42px;position: absolute;top: 40%;left: 2px;
+text-indent: -9000px;cursor: pointer;border-radius: 50%;z-index: 100;left: auto;right: 2px;background-position: center center;background-color:#666666;background-repeat: no-repeat no-repeat;}
+.dboxlite_slider .dboxlite_prev {width: 42px;height: 42px;position: absolute;top: 40%;left: 2px;
+text-indent: -9000px;cursor: pointer;border-radius: 50%;z-index: 100;opacity: 1;background-position: center center;background-color:#666666;background-repeat: no-repeat no-repeat;}
+/* Navigations Dots */
+.dboxlite_slider .dboxlite_nav_dots {text-align: center;position: absolute;bottom: 0;height: 30px;width: 100%;left: 0;display: none;z-index:100;}
+.dboxlite_slider .dboxlite_nav_dots span {display: inline-block;width: 16px;height: 16px;border-radius: 50%;margin: 3px;background: #666666;cursor: pointer;}
+.dboxlite_slider .dboxlite_nav_dots span.dboxlite_nav_dot_current {box-shadow: inset 0 0 0 3px #666666,inset 0 0 0 8px #fff;}
+/* Navigation Options */
+.dboxlite_slider .dboxlite_nav_options {width: 40px;height: 30px;position: absolute;right: 0px;bottom: 0px;display: none;top: 0.1em;}
+.dboxlite_slider .dboxlite_play{background-position: center center;margin-right: 3px;width: 30px;height: 30px;text-indent: -9000px;cursor: pointer;display: inline-block;border-radius: 50%;background-color:#666666;background-size: 16px;background-repeat: no-repeat no-repeat;}
+.dboxlite_slider .dboxlite_pause{background-position: center center;margin-right: 3px;width: 30px;height: 30px;text-indent: -9000px;cursor: pointer;display: inline-block;border-radius: 50%;background-color:#666666;background-size: 16px;background-repeat: no-repeat no-repeat;}
+.dboxlite_slider .dboxlite_nav_options span:hover {opacity: 1;}
+/* dboxlite Video */
+.dboxlite_slider .dboxlite_video{min-height:100% !important;width:100% !important;margin: 0 !important;position:absolute !important;top:0;left:0;}
+.dboxlite_slider .mejs-overlay-button{margin-left:-50px;}
+.dboxlite_slider iframe {height:100%;width:100%;}
+/* Validation Error */
+#dboxlite_slider_form input.error{border: 1px solid #D8000C; padding: 5px 0}
+
+.classname {
+	background-color:#00c2e4;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100%;
+	text-decoration:none;
+	text-align:center;
+}.classname:hover {
+	background-color:#dfdfdf;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+/**************************************************/
+/* M e d i a   Q u e r i e s */
+@media only screen and (max-width: 480px) {
+	.dboxlite_slider .dboxlite_text div.dboxlite-content {display:none;}
+	.dboxlite_slider .dboxlite_text h2, .dboxlite_slider .dboxlite_text h2 a{font-size: 0.9em !important;}
+	.dboxlite_slider .dboxlite_nav_dots {bottom:-8px;}
+	.dboxlite_slider .dboxlite_shadow {height:80px;margin-top:-50px;}
+	.dboxlite_slider .dboxlite_next, .dboxlite_slider .dboxlite_prev {width:28px !important;height:28px !important;background-size:18px !important;}
+	.dboxlite_slider .dboxlite_nav_options span {width:25px !important;height:25px !important;background-size:11px !important;}
+	.dboxlite_slider .dboxlite_nav_options {width:27px !important;height:27px !important;}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.dboxlite_slider .dboxlite_text div.dboxlite-content {display:none;}
+	.dboxlite_slider .dboxlite_text h2, .dboxlite_slider .dboxlite_text h2 a{font-size: 0.9em !important}
+	.dboxlite_slider .dboxlite_nav_dots {bottom:7px;}
+	.dboxlite_slider .dboxlite_shadow {height:100px;margin-top:-50px;}
+}
