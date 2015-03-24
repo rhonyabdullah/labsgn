@@ -297,3 +297,10 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load custom nav walker
  */
 require get_template_directory() . '/inc/navwalker.php';
+
+add_filter( 'comment_form_defaults', 'remove_comment_form_allowed_tags' );
+function remove_comment_form_allowed_tags( $defaults ) {
+
+	$defaults['comment_notes_after'] = '';
+	return $defaults;
+}

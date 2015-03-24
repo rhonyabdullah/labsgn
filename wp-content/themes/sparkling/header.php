@@ -79,14 +79,9 @@
 		<div class="top-section">
 			<?php sparkling_featured_slider(); ?>
 			<?php sparkling_call_for_action(); ?>
-		<div class="flexslider">
-<?php if( function_exists( "get_dbox_slider_recent" ) ){ get_dbox_slider_recent(); } ?>
-		
-
-		</div>
 		</div>
 
 		<div class="container main-content-area">
-
+		<?php if( function_exists( "get_dbox_slider_recent" ) ){ get_dbox_slider_recent(); } ?>
 			<div class="row">
 				<div class="main-content-inner <?php echo sparkling_main_content_bootstrap_classes(); ?> <?php echo of_get_option( 'site_layout' ); ?>">
