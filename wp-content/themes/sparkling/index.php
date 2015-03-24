@@ -14,9 +14,11 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-
+        
 		<main id="main" class="site-main" role="main">
-		
+
+		<?php if( function_exists( "get_dbox_slider_recent" ) ){ get_dbox_slider_recent(); } ?>
+
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
